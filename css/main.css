@@ -331,7 +331,7 @@ input[type=checkbox]{
     
     display: block;
     z-index: 10;
-    height: 50%;
+    height: 75%;
     position: fixed;
     top: -15px;
     right: -75%;
