@@ -5,97 +5,102 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">	
-	<script src="https://kit.fontawesome.com/2787c97e68.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery3.5.1.js"></script>
+	<script src="https://kit.fontawesome.com/2787c97e68.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/action.js"></script>
+    
 	<title>Practice</title>
 </head>
 <body>
-	<div id="header" class="clearfix container ">
-		<div id="logo" class="">
+	<div id="top" class="original">
+		<div id="header" class="clearfix container">
+			<div id="logo" class="">
+				
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+				
+				<a class="navbar-brand float-left" href="#"><img src="https://via.placeholder.com/112x100" alt=""></a>
+				  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav ">
+					<li class="nav-item active">
+					  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  pages
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Portfolio</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Elements</a>
+					</li>
+					
+				  </ul>				  
+								   
+				  
+				</div>
+				<div class="set ml-auto">
+					<a class="login userlog userlog-roll" href="#">Login</a>
+					<a class="signup userlog userlog-roll" href="#">Sign Up</a>
+				</div>
+				
+
+
+				<input type="checkbox" class="openSidebarMenu col-sm-12 float-right" id="openSidebarMenu">
+				  <label for="openSidebarMenu" class="sidebarIconToggle">
+						<div class="spinner diagonal part-1"></div>
+						<div class="spinner horizontal"></div>
+						<div class="spinner diagonal part-2"></div>
+				  </label>
+			  <div id="sidebarMenu">
+				  <div class="user">
+					<img class="logo" src="http://droitthemes.com/html/saasland/img/logo.png" alt="">
+					
+					<div class="account"><a href="#" target="_blank">Login</a>
+						<a href="#" target="_blank">Sign Up</a></div>	
+						
+					
+				  </div>
+				  
+				  <ul class="sidebarMenuInner">
+					<li><a href="#" target="_blank">Home</a></li>
+					<li><a href="#" target="_blank">Pages</a></li>
+					<li><a href="#" target="_blank">Portfolio</a></li>
+					<li><a href="#" target="_blank">Shop</a></li>
+					<li><a href="#" target="_blank">Blog</a></li>
+					<li><a href="#" target="_blank">Elements</a></li>
+				  </ul>
+			  </div>
+				
+				
+			</nav>
+	
+			
+			
+			
+			
+			
 			
 		</div>
-		<nav class="navbar d-flex navbar-expand-lg navbar-light justify-content-between">
-			
-			<a class="navbar-brand float-left" href="#"><img src="https://via.placeholder.com/112x100" alt=""></a>
-  			
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			  <ul class="navbar-nav mr-auto ">
-				<li class="nav-item active">
-				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  pages
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					  <a class="dropdown-item" href="#">Action</a>
-					  <a class="dropdown-item" href="#">Another action</a>
-					  <div class="dropdown-divider"></div>
-					  <a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				  </li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Portfolio</a>
-				</li>
-				
-				<li class="nav-item">
-					<a class="nav-link" href="#">Shop</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Elements</a>
-				</li>
-				
-			  </ul>
-
-			  
-			  <div>
-				  <a href="#">Login</a>
-				  <a href="#">Sign Up</a>
-			  </div>
-			  
-			   
-			  
-			</div>
-			<input type="checkbox" class="openSidebarMenu col-sm-12 float-right" id="openSidebarMenu">
-			  <label for="openSidebarMenu" class="sidebarIconToggle">
-					<div class="spinner diagonal part-1"></div>
-					<div class="spinner horizontal"></div>
-					<div class="spinner diagonal part-2"></div>
-			  </label>
-		  <div id="sidebarMenu">
-			  <div class="user">
-				<img class="logo" src="http://droitthemes.com/html/saasland/img/logo.png" alt="">
-				
-				<div class="account"><a href="#" target="_blank">Login</a>
-					<a href="#" target="_blank">Sign Up</a></div>	
-					
-				
-			  </div>
-			  
-			  <ul class="sidebarMenuInner">
-				<li><a href="#" target="_blank">Home</a></li>
-				<li><a href="#" target="_blank">Pages</a></li>
-				<li><a href="#" target="_blank">Portfolio</a></li>
-				<li><a href="#" target="_blank">Shop</a></li>
-				<li><a href="#" target="_blank">Blog</a></li>
-				<li><a href="#" target="_blank">Elements</a></li>
-			  </ul>
-		  </div>
-			
-			
-		</nav>
-
-		
-		
-		
-		
-		
-		
 	</div>
+	
 	
 	<div id="content">
 		<div class="header">
@@ -108,12 +113,16 @@
 							the duff starkers cheeky bugger.!!</p>
 						<a href="#" class="startbtn" >get started</a>
 					</div>
+					<div class="col-sm-6">
+						<img class="phone" src="http://droitthemes.com/html/saasland/img/home2/mobile.png" alt="">
+						<img class="women" src="http://droitthemes.com/html/saasland/img/home2/women.png" alt="">
+					</div>
 				</div>
 				
 			</div>
 		</div>
 
-		<section class="clearfix">
+		<section class="intro">
 			<div class="container">
 				<div class="row">
 					
@@ -127,15 +136,18 @@
 							<p>That cheeky bugger down the pub squiffy arse spiffing cup of char on your bike mate, quaint I Jeffrey I don't want no agro you mug zonked Richard, barney bobby matie boy David a the full monty. Don't get shirty with me faff about cheesed off cheeky bubble.!</p>
 							
 						</div>
-						<div class="col-lg-4 float-left">
-							<img class="chat-img" src="http://droitthemes.com/html/saasland/img/home2/f_icon_shape1.png" alt="">
-							<h3>Manage conversations with leads and customers at scale</h3>
-							<p>That cheeky bugger down the pub squiffy arse spiffing cup of char on your bike mate, quaint I Jeffrey I don't want no agro you mug zonked Richard, barney bobby matie boy David a the full monty. Don't get shirty with me faff about cheesed off cheeky bubble.!</p>
-							
+						<div class="down">
+							<div class="col-lg-4 float-left">
+								<img class="chat-img" src="http://droitthemes.com/html/saasland/img/home2/f_icon_shape1.png" alt="">
+								<h3>Manage conversations with leads and customers at scale</h3>
+								<p>That cheeky bugger down the pub squiffy arse spiffing cup of char on your bike mate, quaint I Jeffrey I don't want no agro you mug zonked Richard, barney bobby matie boy David a the full monty. Don't get shirty with me faff about cheesed off cheeky bubble.!</p>
+								
+							</div>
+							<div class="col-lg-8 float-right">
+								<img class="img-fluid min-width:100%"  src="https://via.placeholder.com/740x395" alt="">
+							</div>
 						</div>
-						<div class="col-lg-8 float-right">
-							<img class="img-fluid min-width:100%"  src="https://via.placeholder.com/740x395" alt="">
-						</div>
+						
 					</div>
 					
 					
